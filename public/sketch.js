@@ -6,7 +6,7 @@ function setup() {
   background(0);
   // Start a socket connection to the server
   // Some day we would run this server somewhere else
-  socket = io.connect('http://localhost:9001');
+  socket = io.connect('https://localhost:9001');
   // We make a named event called 'mouse' and write an
   // anonymous callback function
   socket.on('mouse',
